@@ -1,0 +1,75 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.team {
+  margin: 10vw 10vw;
+}
+
+.intro {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+}
+.intro__title {
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-size: 3.6rem;
+  margin-bottom: 2.5rem;
+}
+.intro__details {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.8rem;
+}
+.intro__details--title {
+  font-weight: 600;
+}
+.intro__details--content {
+  font-weight: 400;
+  margin-top: 1rem;
+  line-height: 1.5;
+}
+
+.photos {
+  margin: 5rem 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  grid-gap: 5rem;
+}
+.photos .photo__card {
+  display: grid;
+  grid-template-columns: min-content min-content;
+  grid-gap: 1rem;
+}
+.photos .photo__card > img {
+  width: 20rem;
+}
+.photos .photo__card--title {
+  writing-mode: vertical-rl;
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+footer {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #A9A9A9;
+}
+
+/*# sourceMappingURL=style.css.map */
